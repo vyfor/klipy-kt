@@ -77,10 +77,10 @@ tasks.register("compileAllTargets") {
 mavenPublishing {
     configure(KotlinMultiplatform(javadocJar = JavadocJar.Empty(), sourcesJar = true))
 
-    coordinates("io.github.vyfor", "klipy-kt", project.version.toString())
+    coordinates("io.github.vyfor", "klipy", project.version.toString())
 
     pom {
-        name.set("klipy-kt")
+        name.set("klipy")
         description.set("Async Kotlin Multiplatform client for the KLIPY API")
         url.set("https://github.com/vyfor/klipy-kt")
         inceptionYear.set("2026")
