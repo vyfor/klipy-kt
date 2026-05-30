@@ -1,12 +1,13 @@
 # klipy
 
-<a href="https://central.sonatype.com/artifact/io.github.vyfor/klipy"><img src="https://img.shields.io/maven-central/v/io.github.vyfor/klipy"></a>
-
 Async Kotlin Multiplatform client for the [KLIPY API](https://docs.klipy.com).
 
 This is an unofficial library and is not affiliated with Klipy in any way.
 
 ## Installation
+
+<a href="https://central.sonatype.com/artifact/io.github.vyfor/klipy"><img src="https://img.shields.io/maven-central/v/io.github.vyfor/klipy?label=klipy"></a>
+<a href="https://central.sonatype.com/artifact/io.ktor/ktor"><img src="https://img.shields.io/maven-central/v/io.ktor/ktor?label=ktor"></a>
 
 ```kotlin
 dependencies {
